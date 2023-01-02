@@ -27,7 +27,7 @@
 body, html {
     background: var(--background-gradient);
     background-size: 500%;
-    animation: gradient 9s ease infinite;
+    animation: gradient 9s ease alternate infinite;
     height: 100vh;
     width: 100vw;
 }
@@ -50,6 +50,9 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width .4s, heigth .4s;
+    transition-timing-function: ease;
 }
 
 .image {
@@ -67,6 +70,5 @@ main {
 /* Animations */
 @keyframes gradient {
     0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    100%{background-position:100% 50%}
 }
