@@ -14,7 +14,7 @@
     --gradient-bottom-right: linear-gradient(135deg, #F62019ff, #060E2Cff, #560572ff, #B5025Eff);
     --gradient-top-left: linear-gradient(225deg, #F62019ff, #060E2Cff, #560572ff, #B5025Eff);
     --gradient-bottom-left: linear-gradient(315deg, #F62019ff, #060E2Cff, #560572ff, #B5025Eff);
-    --background-gradient: linear-gradient(90deg, #F62019ff, #B5025Eff, #560572ff, #060E2Cff);
+    --background-gradient: linear-gradient(225deg, #F62019ff, #B5025Eff, #560572ff, #060E2Cff);
 }
 
 * {
