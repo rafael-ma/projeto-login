@@ -40,8 +40,8 @@ main {
 
 .login {
     background: white;
-    width: 250px;
-    height: 500px;
+    width: 65vw;
+    height: 70vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -59,12 +59,21 @@ main {
     display: block;
     background: var(--red) url(../imagens/spanBg.jpg);
     background-size: cover;
-    height: 200px;
+    height: 15vh;
 }
 
 .form {
     display: block;
     padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: .8em;
 }
 
 /* Animations */

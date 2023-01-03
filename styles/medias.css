@@ -9,7 +9,7 @@ Desktop: +992px */
     .login {
         width: 80vw;
         float: right;
-        height: 70%
+        height: 70vh
     }
 
     .image {
@@ -18,14 +18,18 @@ Desktop: +992px */
         height: 100%;
         margin-right: 10px;
     }
+
+    p {
+        font-size: 1em;
+    }
 }
 
 /* Desktops:  */
 @media screen and (min-width: 992px) {
     .login {
-        width: 950px;
+        width: 60vw;
         float: left;
-        height: 70%;
+        height: 70vh;
     }
 
     .image {
@@ -33,5 +37,9 @@ Desktop: +992px */
         width: 40%;
         height: 100%;
         margin-left: 10px;
+    }
+
+    p {
+        font-size: 1.15em;
     }
 }
