@@ -74,6 +74,7 @@ h1 {
 
 p {
     font-size: .8em;
+    margin-bottom: 10px;
 }
 
 label {
@@ -88,7 +89,19 @@ label {
 }
 
 .campo {
-    margin: 10px 0;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 3px 8px;
+}
+
+input:focus-within {
+    border: 1px solid var(--copper);
+    color: var(--copper);
+    transition: .5s ease;
 }
 
 .div1 {
@@ -125,6 +138,12 @@ label {
 #forgotPassword {
     color: gray;
     text-align: center;
+}
+
+#forgotPassword:hover {
+    color: var(--copper);
+    transition: .5s ease;
+    transform: scale(1.05);
 }
 
 span.material-icons {
