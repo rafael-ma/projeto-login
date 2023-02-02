@@ -22,6 +22,26 @@ Desktop: +992px */
     p {
         font-size: 1em;
     }
+
+    label {
+        display: inline;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: baseline;
+    }
+    
+    .div1 {
+        width: 10%;
+    }
+    
+    .div2 {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
 }
 
 /* Desktops:  */
@@ -41,5 +61,26 @@ Desktop: +992px */
 
     p {
         font-size: 1.15em;
+    }
+
+    label {
+        display: inline;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: baseline;
+    }
+    
+    .div1 {
+        display: inline;
+        width: 30%;
+    }
+    
+    .div2 {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
     }
 }

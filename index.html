@@ -19,24 +19,33 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer as configutações do seu ambiente.</p>
                 <form action="#" method="post" autocomplete="on">
-                    <div class="campo" id="divLogin">
-                        <span class="material-icons">person</span>
-                        <input type="email" name="login" id="login" placeholder="Seu e-mail" autocomplete="email" required>
-                        <label for="login">Login</label>
+                    <div class="campos">
+                        <div class="campo" id="divLogin">
+                            <span class="material-icons">person</span>
+                            <input type="email" name="login" id="login" placeholder="Seu e-mail" autocomplete="email" required>
+                            <label for="login">Login</label>
+                        </div>
+                        <div class="campo" id="divSenha">
+                            <span class="material-icons">lock</span>
+                            <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" minlength="8" required>
+                            <label for="senha">Senha</label>
+                        </div>
                     </div>
+                    
 
-                    <div class="campo" id="divSenha">
-                        <span class="material-icons">lock</span>
-                        <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" minlength="8" required>
-                        <label for="senha">Senha</label>
+                    <div class="flex">
+                        <div class="div1"></div>
+                        <div class="div2">
+                            <a href="#" id="forgotPassword">
+                                Esqueci a senha
+                                <span class="material-icons">mail</span>
+                            </a>
+                            <button class="button" type="submit">Entrar</button>
+                        </div>
                     </div>
-                    <button type="submit">Entrar</button>
-                    <a href="#" id="forgotPassword">
-                        Esqueci a senha
-                        <span class="material-icons">mail</span>
-                    </a>
                 </form>
             </div>
+
         </section>
     </main>
 </body>
