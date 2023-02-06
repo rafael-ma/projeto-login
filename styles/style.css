@@ -93,13 +93,14 @@ label {
 }
 
 input {
-    border: 1px solid black;
+    border: none;
+    outline: 1px solid black;
     border-radius: 6px;
     padding: 3px 8px;
 }
 
 input:focus-within {
-    border: 1px solid var(--copper);
+    outline: 3px solid var(--copper);
     color: var(--copper);
     transition: .5s ease;
 }
